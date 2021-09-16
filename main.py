@@ -52,7 +52,7 @@ print('\nsize of x_train, y_train, x_test, y_test:')
 print(x_train.shape, y_train.shape, x_test.shape, y_test.shape )
 
 # train model & inference
-if task == 'train':
+if task == 'predict':
 	# build model
 	if test_model == 'RNN2Dense_1':
 		model = RNN2Dense_1(x_train.shape[1:], y_train.shape[1:], cell, 300, (20,))
