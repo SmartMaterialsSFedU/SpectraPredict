@@ -56,7 +56,7 @@ is_augment = False          		                  # True / False,  if True, x^2, x
 #------------------------
 
 #---------Spectra Dataset-----------------
-spectra = pd.read_table('PCA_ref_shift_total.txt',  delim_whitespace=True, header=None)
+spectra = pd.read_table('data/PCA_ref_shift_total.txt',  delim_whitespace=True, header=None)
 energies = spectra.loc[0]
 spectra = spectra.drop([0])   #drop column 0 - energies
 spectra = spectra.T
