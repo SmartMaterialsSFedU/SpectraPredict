@@ -13,7 +13,7 @@ class TSBase:
         pickle.dump(self.class_info,open(model_name+'.info','wb'))
 
     def data_preprocessing(self,x, y = None):
-        # overload this method if it doesn't fit your need. 
+
         x_new = x
         y_new = y
 

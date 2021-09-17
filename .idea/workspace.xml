@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4dc1451a-3ecc-4b91-bfa5-1d60a06a676e" name="Changes" comment="Initial Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpectraPredict.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpectraPredict.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpectraTimeSeries/SeriesModels/RNN2Dense.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpectraTimeSeries/SeriesModels/RNN2Dense.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpectraTimeSeries/SeriesModels/Seq2Seq.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpectraTimeSeries/SeriesModels/Seq2Seq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpectraTimeSeries/SeriesModels/TimeSeriesBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpectraTimeSeries/SeriesModels/TimeSeriesBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpectraTimeSeries/Utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpectraTimeSeries/Utils/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +43,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="SpectralPredict" type="PythonConfigurationType" factoryName="Python">
@@ -70,7 +78,8 @@
       <option name="presentableId" value="Default" />
       <updated>1631793952656</updated>
       <workItem from="1631793955987" duration="4026000" />
-      <workItem from="1631798006326" duration="2642000" />
+      <workItem from="1631798006326" duration="3512000" />
+      <workItem from="1631859780294" duration="10454000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1631798154814</created>
@@ -107,17 +116,36 @@
       <option name="project" value="LOCAL" />
       <updated>1631802067798</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial Commit">
+      <created>1631802443415</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631802443415</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SpectraPredict$SpectralPredict.coverage" NAME="SpectralPredict Coverage Results" MODIFIED="1631802034487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SpectraPredict$SpectralPredict.coverage" NAME="SpectralPredict Coverage Results" MODIFIED="1631872036372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
